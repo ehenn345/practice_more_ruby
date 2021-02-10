@@ -38,3 +38,20 @@ end
 
 p double_it([4, 2, 5, 99, -4])
 
+def greatest_value(array)
+  i = 0
+  greatest_number = array[0]
+  while i < array.length
+    if array[i] > greatest_number
+      greatest_number = array[i]
+    end
+    i += 1
+  end
+  return greatest_number
+end
+
+p greatest_value([5, 17, -4, 20, 12])
+    
+
+
+
