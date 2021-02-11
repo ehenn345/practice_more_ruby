@@ -51,6 +51,22 @@ def greatest_value(array)
 end
 
 p greatest_value([5, 17, -4, 20, 12])
+
+
+def total_product(array)
+  i = 0
+  product = 1
+  while i < array.length
+    product = product * array[i]
+    i += 1
+  end
+
+  return product
+end
+
+p total_product([1,2,3,4])
+
+
     
 
 
