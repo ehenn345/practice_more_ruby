@@ -66,6 +66,28 @@ end
 
 p total_product([1,2,3,4])
 
+def reverse_order(array)
+  i = 0
+  i2 = array.length - 1
+  p array.length
+  while i < i2
+    temp = array[i] 
+    array[i] = array[i2] 
+    array[i2] = temp 
+
+    i += 1  
+    i2 -= 1   
+  end
+  return array
+end
+
+p reverse_order([1,2,3,4,5])
+
+
+
+
+    
+
 
     
 
