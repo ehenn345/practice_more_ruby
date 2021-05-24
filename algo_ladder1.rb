@@ -84,6 +84,25 @@ end
 p reverse_order([1,2,3,4,5])
 
 
+# def skip_it(array)
+#   i = 0
+#   new_array = []
+
+#   while i < array.length
+#     new_array << array[0]
+#     number = array[0]
+#     i = i + number
+#       array[i] = array[i] + array[0]
+#       p array[i]
+#     end
+
+#   end
+# end
+
+
+
+# p skip_it([2, 1, 3, 2, 5, 1, 2, 6, 2, 7, 1, 5, 6, 3, 2, 6, 2, 1, 2])
+
 
 
     
